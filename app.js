@@ -10,4 +10,3 @@ if(numeroSecreto == numeroEscolhido){
     }else {
         alert('Você digitou um número menor que o número secreto');
     }
-       
