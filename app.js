@@ -1,13 +1,18 @@
+//aparece para o usuário uma janela de alerta
 alert('Bem vindo ao jogo');
 
-let numeroSecreto = 25;
+//let é usado para declarar um variável. usa o sianl de "=" para atribuir um valor
+let numeroSecreto = Math.floor(Math.random() * 5);
+//parseInt para converter número em inteiro; prompt para caixa de entrada no navegador
 let numeroEscolhido = parseInt(prompt('Digite um número de 1 a 50'));
 
-
+//if eu eu uso para testar uma lógica! "==" para igual, "> ou <"maior ou menor," >= ou <="
+//else é usado par ao se não, ou seja, quando um teste lógico do if der false.  
+//else if se quiser criar um outro teste lógico ápos um if.
 if(numeroSecreto == numeroEscolhido){
-    alert('Parabéns você acertou');
+    alert(`Parabéns você acertou o número ${numeroSecreto} `)
     }else if(numeroEscolhido > numeroSecreto){
-        alert('Você digitou um número maior que o número secreto');
+        alert(`Você digitou ${numeroEscolhido} que é um número maior que o número secreto`);
     }else {
-        alert('Você digitou um número menor que o número secreto');
+        alert(`Você digitou ${numeroEscolhido} que é um número menor que o número secreto`);
     }
