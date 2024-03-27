@@ -1,7 +1,7 @@
 alert('Bem vindos ao jogo do número secreto');
 
 let numeroSecreto = Math.floor(Math.random() * 5);
-let tentativas = 1;
+let tentativas = 3;
 
 while(tentativas > 0){
     let numeroDigitado = parseInt(prompt('Digite um número de 0 a 5'));
