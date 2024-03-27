@@ -19,7 +19,7 @@ if(numeroSecreto == numeroEscolhido){
     }
 
 while(numeroTentativas <= 2) {
-    let numeroEscolhido = parseInt(prompt('Digite um número de 0 a 50'));
+    let numeroEscolhido = parseInt(prompt('Digite um número de 0 a 15'));
     if(numeroSecreto == numeroEscolhido){
         alert(`Parabéns você acertou o número ${numeroSecreto} `);
         break;
