@@ -1,7 +1,7 @@
 //aparece para o usuário uma janela de alerta
 alert('Bem vindo ao jogo');
 
-//let é usado para declarar um variável. usa o sianl de "=" para atribuir um valor
+//let é usado para declarar um variável. usa o sinal de "=" para atribuir um valor
 let numeroSecreto = Math.floor(Math.random() * 15);
 let numeroTentativas = 0;
 //parseInt para converter número em inteiro; prompt para caixa de entrada no navegador
